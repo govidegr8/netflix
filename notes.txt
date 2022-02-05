@@ -1,0 +1,8 @@
+Earlier the server used to give the entire html page as its response. This resulted in constant reloading of the page and higher datarates.
+Now we use webservices that is based on lazy loading.
+The webpages become more fast and responsive.
+One type of web services is REST. REST can be put,post ,delete, get etc
+In this type of service the server first sends only the basic skeleton of the web page and after that depending on api calls other components are created or updated.
+The web servoces connect to web page only for the api calls and disconnects after the response
+The responses from the server are in JSON format 
+fetch requests and axios 
